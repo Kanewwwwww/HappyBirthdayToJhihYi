@@ -3,6 +3,7 @@ $(function () {
         { url: "images/妍狄.JPG" },
         { url: "images/宜君.JPG" },
         { url: "images/思庭.JPG" },
+        { url: "images/佩青.JPG" },
         { url: "images/煉英.JPG" }
       ];
     // var _picture = [
