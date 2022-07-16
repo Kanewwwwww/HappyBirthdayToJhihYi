@@ -22,9 +22,12 @@ $(function () {
         var cardloading = function (fun, time) {
           $(".card .image .status ").show();
           $(".card .image .info ").hide();
+          $(".card.is-loading .image ").height(400);
           
           setTimeout(() => {
               $(".card .image .status ").hide();
+              $(".card.is-loading .image ").height(0);
+              
             fun();
           }, time);
         };
